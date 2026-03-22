@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Intelligence — Max Outlet</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a0b0e;color:#e8eaed;padding:24px;max-width:800px;margin:0 auto}
+h1{font-size:22px;margin-bottom:4px}
+.date{color:#7a7a7a;font-size:13px;margin-bottom:24px}
+.issue{background:#141518;border-radius:12px;padding:20px;margin-bottom:16px;border-left:4px solid #555}
+.issue-critico{border-color:#ff4d6a}.issue-urgente{border-color:#ffaa2c}.issue-atencao{border-color:#ff8c00}.issue-otimizacao{border-color:#00d68f}
+h3{font-size:16px;margin-bottom:8px}
+.diag{color:#b0b0b0;margin-bottom:12px;line-height:1.5}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.tag{background:#1e1f23;padding:4px 10px;border-radius:6px;font-size:12px;color:#00e5c7}
+.hipotese{color:#ffaa2c;margin-bottom:12px;font-size:14px}
+h4{font-size:14px;color:#7a7a7a;margin-bottom:8px}
+ul{list-style:none;padding:0}
+li{padding:6px 0;padding-left:20px;position:relative;color:#ccc;font-size:14px}
+li:before{content:"☐";position:absolute;left:0;color:#00e5c7}
+.footer{margin-top:32px;color:#555;font-size:12px;text-align:center}
+</style></head><body>
+<h1>🔴 Max Outlet</h1>
+<div class="date">Gerado em 22/03/2026 16:18 | Verificar em 2026-03-23</div>
+
+        <div class="issue issue-critico">
+            <h3>🔴 Saldo Crítico</h3>
+            <p class="diag">A conta está com saldo zerado mas ainda registrando gasto diário de R$239,36, indicando que as campanhas podem estar rodando com saldo negativo ou há delay no sistema. Isso pode causar interrupção abrupta das campanhas e perda de momentum, impactando diretamente a geração de leads para a clínica.</p>
+            <div class="meta">
+                <span class="tag">saldo: 0.0</span><span class="tag">dias_restantes: 0.0</span><span class="tag">gasto_dia: 239.36</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (90%):</strong> Saldo insuficiente causou ou está prestes a causar pausa automática das campanhas pelo Meta Ads</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Adicionar R$2.000-3.000 no saldo da conta imediatamente via cartão de crédito ou débito automático</li><li>Verificar se todas as campanhas estão ativas e reativar as que foram pausadas por falta de saldo</li><li>Configurar alerta automático de saldo baixo (quando atingir R$500) e débito automático para evitar nova interrupção</li><li>Analisar se o gasto diário de R$239 está alinhado com o orçamento planejado e CPL target de <R$15</li>
+            </ul>
+        </div>
+        <div class="issue issue-urgente">
+            <h3>🟡 CPL Alto</h3>
+            <p class="diag">CPL de R$227,38 está 1.400% acima da meta máxima de R$18, com apenas 3 leads em 3 dias e gasto elevado de R$682. A performance está crítica e insustentável para o modelo de negócio da clínica.</p>
+            <div class="meta">
+                <span class="tag">cpl_3d: 227.38</span><span class="tag">leads_3d: 3</span><span class="tag">gasto_3d: 682.13</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (80%):</strong> Público saturado ou segmentação muito restrita causando leilões caros e baixa receptividade</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Pausar imediatamente as campanhas com CPL acima de R$50 para estancar o sangramento de budget</li><li>Expandir audiência incluindo interesses relacionados (vida saudável, nutrição, exercícios) e lookalike 2-3% de clientes</li><li>Testar novo creative focado em dor específica: 'Cansado de depender de remédios para diabetes?' com CTA mais direto</li><li>Reduzir budget diário em 50% nas campanhas reativadas para controlar gasto enquanto otimiza</li>
+            </ul>
+        </div>
+        <div class="issue issue-atencao">
+            <h3>🟠 Anúncio Ruim</h3>
+            <p class="diag">Anúncio com creative completamente desalinhado ao público-alvo de diabetes tipo 2 - produto de sneaker para audiência médica. CTR alto de 2.8% indica que o público está clicando por curiosidade, mas zero conversões em R$96 gastos mostra total desconexão com a intenção de compra. Frequência baixa indica que não é saturação, mas sim irrelevância do conteúdo.</p>
+            <div class="meta">
+                <span class="tag">ad_name: Travis Scott x Air Jordan 1 Low OG Canary</span><span class="tag">ad_id: 120242186166120363</span><span class="tag">spend: 95.96</span><span class="tag">leads: 0</span><span class="tag">ctr: 2.804849</span><span class="tag">freq: 1.371699</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (95%):</strong> Creative errado foi vinculado à campanha médica por erro operacional na criação ou duplicação de anúncios</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Pausar imediatamente o anúncio 120242186166120363 para evitar mais desperdício de budget</li><li>Verificar se outros anúncios da conta têm creatives incorretos e pausar se necessário</li><li>Substituir por creative focado em diabetes tipo 2 (benefícios do tratamento, depoimentos, resultados clínicos)</li><li>Implementar checklist de QA obrigatório antes de aprovar novos anúncios para evitar erros similares</li>
+            </ul>
+        </div>
+<div class="footer">Seven Midas Intelligence Engine</div>
+</body></html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Intelligence — Colatina</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a0b0e;color:#e8eaed;padding:24px;max-width:800px;margin:0 auto}
+h1{font-size:22px;margin-bottom:4px}
+.date{color:#7a7a7a;font-size:13px;margin-bottom:24px}
+.issue{background:#141518;border-radius:12px;padding:20px;margin-bottom:16px;border-left:4px solid #555}
+.issue-critico{border-color:#ff4d6a}.issue-urgente{border-color:#ffaa2c}.issue-atencao{border-color:#ff8c00}.issue-otimizacao{border-color:#00d68f}
+h3{font-size:16px;margin-bottom:8px}
+.diag{color:#b0b0b0;margin-bottom:12px;line-height:1.5}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.tag{background:#1e1f23;padding:4px 10px;border-radius:6px;font-size:12px;color:#00e5c7}
+.hipotese{color:#ffaa2c;margin-bottom:12px;font-size:14px}
+h4{font-size:14px;color:#7a7a7a;margin-bottom:8px}
+ul{list-style:none;padding:0}
+li{padding:6px 0;padding-left:20px;position:relative;color:#ccc;font-size:14px}
+li:before{content:"☐";position:absolute;left:0;color:#00e5c7}
+.footer{margin-top:32px;color:#555;font-size:12px;text-align:center}
+</style></head><body>
+<h1>🟡 Colatina</h1>
+<div class="date">Gerado em 22/03/2026 16:17 | Verificar em 2026-03-23</div>
+
+        <div class="issue issue-atencao">
+            <h3>🟠 Saldo Baixo</h3>
+            <p class="diag">Saldo da conta está criticamente baixo com apenas R$774,96 para 2 dias restantes, enquanto o gasto diário atual é de R$397,16. As campanhas podem parar de veicular nas próximas 48h, interrompendo completamente a geração de leads para consultas avaliativas.</p>
+            <div class="meta">
+                <span class="tag">saldo: 774.96</span><span class="tag">dias_restantes: 2.0</span><span class="tag">gasto_dia: 397.16</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (85%):</strong> Orçamento mensal foi subdimensionado ou houve picos de gasto não controlados que esgotaram o budget antecipadamente</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Adicionar saldo de R$2.000-3.000 imediatamente para garantir continuidade das campanhas</li><li>Reduzir orçamento diário das campanhas em 20-30% temporariamente para esticar o saldo atual</li><li>Pausar campanhas com CPL acima de R$19 ou CTR abaixo de 1%</li><li>Configurar alertas de orçamento para avisar quando restar 20% do saldo mensal</li>
+            </ul>
+        </div>
+        <div class="issue issue-urgente">
+            <h3>🟡 CPL Alto</h3>
+            <p class="diag">CPL de R$21,28 está 18% acima do limite crítico de R$19, com gasto concentrado de R$914,89 em apenas 3 dias. O volume de leads (43) está sendo mantido, mas com eficiência crítica que compromete a rentabilidade das campanhas.</p>
+            <div class="meta">
+                <span class="tag">cpl_3d: 21.28</span><span class="tag">leads_3d: 43</span><span class="tag">gasto_3d: 914.89</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (80%):</strong> Fadiga de audiência ou queda na qualidade do targeting está elevando os custos de aquisição</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Reduzir orçamento diário das campanhas com CPL >R$20 em 30% imediatamente</li><li>Pausar ad sets com CPL >R$25 e frequência >3.0</li><li>Duplicar os 2 ad sets com menor CPL dos últimos 7 dias aumentando orçamento em 50%</li><li>Criar 3 novos ad sets com públicos similares 1% baseados nos leads dos últimos 30 dias</li><li>Testar 2 novos hooks focando em 'consulta R$150' como isca de baixo comprometimento</li>
+            </ul>
+        </div>
+        <div class="issue issue-atencao">
+            <h3>🟠 Anúncio Ruim</h3>
+            <p class="diag">O anúncio 'ads controlar sintomas' está com CPL extremamente alto (R$121,87) com apenas 1 lead em R$121,87 gastos, 524% acima da meta máxima. A performance está crítica comparada à média da conta (R$19,53).</p>
+            <div class="meta">
+                <span class="tag">ad_name: ads controlar sintomas</span><span class="tag">ad_id: 23853934480620794</span><span class="tag">spend: 121.87</span><span class="tag">leads: 1</span><span class="tag">cpl: 121.87</span><span class="tag">cpl_media: 19.53</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (80%):</strong> Creative/copy do anúncio não está ressoando com o público-alvo ou está sendo mostrado para audiência inadequada</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Pausar imediatamente o anúncio 'ads controlar sintomas' para estancar o sangramento de budget</li><li>Analisar métricas detalhadas (CTR, frequência, CPM) deste anúncio vs outros da campanha para identificar gargalo</li><li>Criar nova variação do anúncio com copy focado em 'resultado/transformação' ao invés de 'controlar sintomas'</li><li>Redistribuir o budget pausado para os anúncios com melhor performance da mesma campanha</li>
+            </ul>
+        </div>
+<div class="footer">Seven Midas Intelligence Engine</div>
+</body></html>

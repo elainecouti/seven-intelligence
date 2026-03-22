@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Intelligence — Cachoeiro</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a0b0e;color:#e8eaed;padding:24px;max-width:800px;margin:0 auto}
+h1{font-size:22px;margin-bottom:4px}
+.date{color:#7a7a7a;font-size:13px;margin-bottom:24px}
+.issue{background:#141518;border-radius:12px;padding:20px;margin-bottom:16px;border-left:4px solid #555}
+.issue-critico{border-color:#ff4d6a}.issue-urgente{border-color:#ffaa2c}.issue-atencao{border-color:#ff8c00}.issue-otimizacao{border-color:#00d68f}
+h3{font-size:16px;margin-bottom:8px}
+.diag{color:#b0b0b0;margin-bottom:12px;line-height:1.5}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.tag{background:#1e1f23;padding:4px 10px;border-radius:6px;font-size:12px;color:#00e5c7}
+.hipotese{color:#ffaa2c;margin-bottom:12px;font-size:14px}
+h4{font-size:14px;color:#7a7a7a;margin-bottom:8px}
+ul{list-style:none;padding:0}
+li{padding:6px 0;padding-left:20px;position:relative;color:#ccc;font-size:14px}
+li:before{content:"☐";position:absolute;left:0;color:#00e5c7}
+.footer{margin-top:32px;color:#555;font-size:12px;text-align:center}
+</style></head><body>
+<h1>🔴 Cachoeiro</h1>
+<div class="date">Gerado em 22/03/2026 16:17 | Verificar em 2026-03-23</div>
+
+        <div class="issue issue-critico">
+            <h3>🔴 Saldo Crítico</h3>
+            <p class="diag">A conta está com saldo crítico de R$104,09 para apenas meio dia de operação, com gasto diário de R$201,34. As campanhas serão pausadas automaticamente pelo Meta em aproximadamente 12 horas, interrompendo completamente a geração de leads para a unidade de Cachoeiro.</p>
+            <div class="meta">
+                <span class="tag">saldo: 104.09</span><span class="tag">dias_restantes: 0.5</span><span class="tag">gasto_dia: 201.34</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (90%):</strong> Falta de recarga de saldo ou falha no método de pagamento configurado na conta publicitária</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Recarregar saldo imediatamente com no mínimo R$1.500 (7-8 dias de operação)</li><li>Verificar e atualizar método de pagamento configurado na conta (cartão válido/limite)</li><li>Configurar recarga automática de R$1.000 quando saldo atingir R$300</li><li>Implementar alerta via email/WhatsApp quando saldo for inferior a R$500</li>
+            </ul>
+        </div>
+        <div class="issue issue-urgente">
+            <h3>🟡 CTR Baixo</h3>
+            <p class="diag">CTR de 0.67% está muito abaixo do benchmark de 1-2% para clínicas médicas, indicando que os anúncios não estão gerando interesse suficiente no público. Com quase 90mil impressões, o volume de exposição é alto mas a resposta é baixa, sugerindo problema no criativo ou segmentação.</p>
+            <div class="meta">
+                <span class="tag">ctr: 0.67</span><span class="tag">impressoes: 89670</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (80%):</strong> Criativos desgastados ou pouco atrativos para o público diabético, não comunicando adequadamente a dor/urgência do tratamento DM2</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Pausar anúncios com CTR <0.5% imediatamente e redistribuir budget para os com melhor performance</li><li>Criar 3 novos criativos focados em dor específica: 'Cansado de viver refém da diabetes?' com antes/depois de pacientes reais</li><li>Testar headlines diretos: 'Consulta R$150 - Especialista em Diabetes Cachoeiro' com call-to-action urgente</li><li>Refinar audiência removendo interesses amplos e focar em 'diabetes tipo 2' + comportamentos de saúde específicos</li>
+            </ul>
+        </div>
+        <div class="issue issue-atencao">
+            <h3>🟠 Anúncio Ruim</h3>
+            <p class="diag">O anúncio 'ADS MARATAÍZES' gastou R$37,73 sem gerar nenhum lead, resultando em CPL infinito muito acima da meta de <R$15. Com CPL médio da conta em R$16,66, este anúncio específico está claramente com problema de performance.</p>
+            <div class="meta">
+                <span class="tag">ad_name: ADS MARATAÍZES</span><span class="tag">ad_id: 120239170519240049</span><span class="tag">spend: 37.73</span><span class="tag">leads: 0</span><span class="tag">cpl: 999</span><span class="tag">cpl_media: 16.66</span>
+            </div>
+            <p class="hipotese"><strong>Hipótese (85%):</strong> Segmentação inadequada direcionando para Marataízes quando a unidade é em Cachoeiro, causando desconexão geográfica com o público-alvo</p>
+            <h4>Ações:</h4>
+            <ul>
+                <li>Pausar imediatamente o anúncio 'ADS MARATAÍZES' para estancar o gasto sem retorno</li><li>Verificar configuração de localização e ajustar para raio de 30-50km de Cachoeiro, excluindo Marataízes se necessário</li><li>Analisar CTR e frequência dos últimos 7 dias para identificar se houve saturação ou problema criativo</li><li>Realocar budget para anúncios com CPL <R$15 na mesma campanha</li>
+            </ul>
+        </div>
+<div class="footer">Seven Midas Intelligence Engine</div>
+</body></html>
